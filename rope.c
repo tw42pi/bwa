@@ -42,7 +42,8 @@ static inline void *mp_alloc(mempool_t *mp)
 			mp->max = mp->max? mp->max<<1 : 1;
 			mp->mem = realloc(mp->mem, sizeof(void*) * mp->max);
 		}
-		mp->mem[mp->top] = calloc(mp->n_elems, mp->size);
+		if (mp->mem)
+			mp->mem[mp->top] = calloc(mp->n_elems, mp->size);
 		mp->i = 0;
 	}
 	return mp->mem[mp->top] + (mp->i++) * mp->size;
