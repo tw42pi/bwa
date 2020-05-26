@@ -184,3 +184,5 @@ run the post-processing script.
 [16]: ftp://ftp.ncbi.nlm.nih.gov/genbank/genomes/Eukaryotes/vertebrates_mammals/Homo_sapiens/GRCh38/seqs_for_alignment_pipelines/
 [17]: http://sourceforge.net/projects/bio-bwa/files/bwakit/
 [18]: https://github.com/lh3/bwa/blob/master/README-alt.md
+
+Test Commit
