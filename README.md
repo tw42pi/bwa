@@ -186,3 +186,5 @@ run the post-processing script.
 [18]: https://github.com/lh3/bwa/blob/master/README-alt.md
 
 Test Commit 6
+
+whole new line
