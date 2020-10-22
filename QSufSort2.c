@@ -37,8 +37,7 @@
 #define min(value1, value2)						( ((value1) < (value2)) ? (value1) : (value2) )
 
 #define med3(a, b, c)							( (a)<(b) ? ((b)<(c) ? b : a<c ? c : a) : (b>c ? b : a>c ? c : a))
-
-#define swap(a, b, t);							t = a; a = b; b = t;
+#define swap(a, b, t);							(t) = (a); (a) = (b); (b) = (t);
 
 // Static functions
 static void QSufSortSortSplit(qsint_t* __restrict V, qsint_t* __restrict I, const qsint_t lowestPos, 
