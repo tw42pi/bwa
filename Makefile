@@ -43,7 +43,7 @@ depend:
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
-QSufSorty.o: QSufSort.h
+QSufSorty.o: QSufSortblubb.h
 bamlite.o: bamlite.h malloc_wrap.h
 bntseq.o: bntseq.h utils.h kseq.h malloc_wrap.h khash.h
 bwa.o: bntseq.h bwa.h bwt.h ksw.h utils.h kstring.h malloc_wrap.h kvec.h
