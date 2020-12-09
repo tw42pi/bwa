@@ -28,14 +28,13 @@
 
 */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 #include "QSufSort.h"
 
 #define min(value1, value2)						( ((value1) < (value2)) ? (value1) : (value2) )
-#define med3(a, b, c)							( (a)<(b) ? ((b)<(c) ? b : a<c ? c : a) : (b>c ? b : a>c ? c : a))
+#define med3(a, b, c)							( (a)<(b) ? ((b)<(c) ? (b) : (a)<(c) ? (c) : (a)) : ((b)>(c) ? (b) : (a)>(c) ? (c) : (a)))
 #define swap(a, b, t);							(t) = (a); (a) = (b); (b) = (t);
 
 // Static functions
