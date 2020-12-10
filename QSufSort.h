@@ -31,6 +31,8 @@
 
 #include <stdint.h>
 
+
+
 #define KEY(V, I, p, h)					( V[ I[p] + h ] )
 #define INSERT_SORT_NUM_ITEM	16
 
